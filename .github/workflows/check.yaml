@@ -19,8 +19,8 @@ jobs:
       - run: dart format --output none --set-exit-if-changed .
       - run: dart analyze
       - run: dart run coverage:test_with_coverage -- --reporter github
-      - name: Upload coverage
-        uses: coverallsapp/github-action@v2.2.3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: coverage/lcov.info
+      # - name: Upload coverage
+      #   uses: coverallsapp/github-action@v2.2.3
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     path-to-lcov: coverage/lcov.info
