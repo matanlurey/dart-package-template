@@ -21,29 +21,20 @@ TODO: Document what the package does, include screenshots, etc.
 
 ## Contributing
 
-If you have a feature you'd like to see, feel free to
-[file an issue][gh-issues-new] or [fork and open a pull request][gh-fork].
-
-[gh-issues-new]: https://github.com/matanlurey/dart-package-template/issues/new
-[gh-fork]: https://github.com/matanlurey/dart-package-template/fork
-
-### CI
-
-This package is:
-
-- Formatted with `dart format`.
-- Checked with `dart analyze`.
-- Tested with `dart test`, including with code coverage.
-
-See [`github/workflows/check.yaml`](./.github/workflows/check.yaml) for details.
-
-### Coverage
-
-To view the coverage report locally (MacOS):
+To run the tests, run:
 
 ```shell
-brew install lcov
-dart run coverage:test_with_coverage
-genhtml coverage/lcov.info -o coverage/html
-open coverage/html/index.html
+dart test
+```
+
+To check code coverage locally, run:
+
+```shell
+dart tool/coverage.dart
+```
+
+To preview `dartdoc` output locally, run:
+
+```shell
+dart tool/dartdoc.dart
 ```
