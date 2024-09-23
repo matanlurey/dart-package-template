@@ -53,15 +53,29 @@
 <section class="desc markdown">
   <h1 id="dart-package-template">dart-package-template</h1>
 <p>A reusable template repository for standalone Dart packages.</p>
-<p><a href="https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml"><img src="https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml/badge.svg" alt="Github Actions"></a>
-<a href="https://coveralls.io/github/matanlurey/dart-package-template?branch=main"><img src="https://coveralls.io/repos/github/matanlurey/dart-package-template/badge.svg?branch=main" alt="Coverage Status"></a></p>
+<!--
+REPLACE {{PACKAGE}}, UNCOMMENT BELOW, UNCOMMENT IN .github/workflows/check.yaml.
+
+[![CI](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml/badge.svg)](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/matanlurey/{{PACKAGE}}/badge.svg?branch=main)](https://coveralls.io/github/matanlurey/{{PACKAGE}}?branch=main)
+[![Pub Package](https://img.shields.io/pub/v/{{PACKAGE}}.svg)](https://pub.dev/packages/{{PACKAGE}})
+[![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dev/documentation/{{PACKAGE}}/latest/)
+-->
 <pre class="language-shell"><code class="language-shell">git clone https://github.com/matanlurey/dart-package-template . &amp;&amp; rm -rf .git &amp;&amp; git init
 </code></pre>
-<h2 id="usage">Usage</h2>
-<pre class="language-dart"><code class="language-dart">import 'package:dart-package-template/dart-package-template.dart';
-</code></pre>
-<h2 id="features">Features</h2>
-<p>TODO: Document what the package does, include screenshots, etc.</p>
+<!--
+
+## Features
+
+TODO: Document what the package does, include screenshots, etc.
+
+## Usage
+
+```dart
+import 'package:dart-package-template/dart-package-template.dart';
+```
+
+-->
 <h2 id="contributing">Contributing</h2>
 <p>To run the tests, run:</p>
 <pre class="language-shell"><code class="language-shell">dart test
@@ -111,7 +125,7 @@
 <footer>
   <span class="no-break">
     package
-      0.0.0
+      0.0.0-unknown
   </span>
 
   
