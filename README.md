@@ -2,13 +2,14 @@
 
 A reusable template repository for standalone Dart packages.
 
-<!--
-REPLACE {{PACKAGE}}, UNCOMMENT BELOW, UNCOMMENT IN .github/workflows/check.yaml.
+[![CI](https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml/badge.svg)](https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml)
 
-[![CI](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml/badge.svg)](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/matanlurey/{{PACKAGE}}/badge.svg?branch=main)](https://coveralls.io/github/matanlurey/{{PACKAGE}}?branch=main)
-[![Pub Package](https://img.shields.io/pub/v/{{PACKAGE}}.svg)](https://pub.dev/packages/{{PACKAGE}})
-[![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dev/documentation/{{PACKAGE}}/latest/)
+<!--
+REPLACE dart-package-template, UNCOMMENT BELOW, UNCOMMENT IN .github/workflows/check.yaml.
+
+[![Coverage Status](https://coveralls.io/repos/github/matanlurey/dart-package-template/badge.svg?branch=main)](https://coveralls.io/github/matanlurey/dart-package-template?branch=main)
+[![Pub Package](https://img.shields.io/pub/v/dart-package-template.svg)](https://pub.dev/packages/dart-package-template)
+[![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dev/documentation/dart-package-template/latest/)
 -->
 
 ```shell

@@ -1,4 +1,4 @@
-import 'prelude.dart';
+import '_prelude.dart';
 
 void main() {
   test('1 + 1 = 2', () {
