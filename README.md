@@ -2,12 +2,24 @@
 
 A reusable template repository for standalone Dart packages.
 
-[![Github Actions](https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml/badge.svg)](https://github.com/matanlurey/dart-package-template/actions/workflows/check.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/matanlurey/dart-package-template/badge.svg?branch=main)](https://coveralls.io/github/matanlurey/dart-package-template?branch=main)
+<!--
+REPLACE {{PACKAGE}}, UNCOMMENT BELOW, UNCOMMENT IN .github/workflows/check.yaml.
+
+[![CI](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml/badge.svg)](https://github.com/matanlurey/{{PACKAGE}}/actions/workflows/check.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/matanlurey/{{PACKAGE}}/badge.svg?branch=main)](https://coveralls.io/github/matanlurey/{{PACKAGE}}?branch=main)
+[![Pub Package](https://img.shields.io/pub/v/{{PACKAGE}}.svg)](https://pub.dev/packages/{{PACKAGE}})
+[![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dev/documentation/{{PACKAGE}}/latest/)
+-->
 
 ```shell
 git clone https://github.com/matanlurey/dart-package-template . && rm -rf .git && git init
 ```
+
+<!--
+
+## Features
+
+TODO: Document what the package does, include screenshots, etc.
 
 ## Usage
 
@@ -15,9 +27,7 @@ git clone https://github.com/matanlurey/dart-package-template . && rm -rf .git &
 import 'package:dart-package-template/dart-package-template.dart';
 ```
 
-## Features
-
-TODO: Document what the package does, include screenshots, etc.
+-->
 
 ## Contributing
 
