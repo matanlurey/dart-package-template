@@ -18,12 +18,12 @@ jobs:
       - uses: actions/setup-node@v4
       - uses: browser-actions/setup-chrome@v1
       - run: dart pub get
-      - run: dart format --output none --set-exit-if-changed .
-      - run: dart analyze
-      - run: dart test
+      - run: ./chore check
+      - run: ./chore test
       - run: ./chore coverage -- -P coverage
-      # - name: Upload coverage
-      #   uses: coverallsapp/github-action@v2.2.3
+      # - uses: codecov/codecov-action@v4.6.0
       #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     path-to-lcov: coverage/lcov.info
+      #     token: ${{ secrets.CODECOV_TOKEN }}
+      #     flags: lodim
+      #     file: packages/lodim/coverage/lcov.info
+      #     fail_ci_if_error: true

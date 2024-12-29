@@ -19,3 +19,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./doc/api
+  # publish:
+  #   if: github.event_name == 'push'
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4.2.0
+  #     - uses: dart-lang/setup-dart@v1.6.5
+  #     - run: dart pub get
+  #     - run: ./chore publish
+  #       env:
+  #         PUB_CREDENTIALS: ${{ secrets.PUB_CREDENTIALS }}

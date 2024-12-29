@@ -35,7 +35,7 @@ import 'package:dart-package-template/dart-package-template.dart';
 To run the tests, run:
 
 ```shell
-dart test
+./chore test
 ```
 
 To check code coverage locally, run:
