@@ -5,7 +5,7 @@
 set -e
 
 GIT_URL="https://github.com/matanlurey/pub.lurey.dev"
-GIT_REF="40e3dbb2a7b4eee34238f0f9736312b1e6d18dc3"
+GIT_REF="254e92a28e6b7a329e4e0c5c1639f298bbf51e70"
 
 # Silently activate the pinned version of `chore.dart` from GitHub.
 # Only print if there is an error.
